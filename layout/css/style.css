@@ -1,0 +1,45 @@
+body {
+  background-image: url('../images/bg.jpg');
+  background-size: cover; 
+}
+body .form {
+  width: 50%;
+  margin: 100px auto;
+}
+body .form h1 {
+  color: #fff;
+  text-align: center;
+}
+
+body .form form {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid dodgerblue;
+
+}
+body .form form textarea {
+  resize: none;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 150px;
+  padding: 10px;
+  border: 2px solid dodgerblue;
+  border-radius: 10px;
+  outline: 0;
+  box-shadow: 0;
+}
+body .form form input {
+  border: none;
+  background-color: dodgerblue;
+  color: #fff;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  cursor: pointer;
+  outline: 0;
+  box-shadow: 0;
+}
